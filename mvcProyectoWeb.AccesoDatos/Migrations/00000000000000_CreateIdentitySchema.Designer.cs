@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using mvcProyectoWeb.Data;
+using mvcProyectoWeb.AccesoDatos.Data;
 using System;
 
 namespace mvcProyectoWeb.Data.Migrations

@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using mvcProyectoWeb.Models;
 
-namespace mvcProyectoWeb.Data
+namespace mvcProyectoWeb.AccesoDatos.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -9,5 +10,7 @@ namespace mvcProyectoWeb.Data
             : base(options)
         {
         }
+
+        public DbSet<Almacen> Almacen { get; set; }
     }
 }
